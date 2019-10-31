@@ -1,0 +1,24 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[58]
+      Creating key {ffaa1261-fafd-4cc9-aebe-482eacba9447} with creation date 2019-07-30 03:43:53Z, activation date 2019-07-30 03:43:53Z, and expiration date 2019-10-28 03:43:53Z.
+Hosting environment: Development
+Content root path: E:\??????\SVN\GineCoreMySql\GineCore.Web
+Now listening on: http://localhost:42848
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://192.168.20.67:6060/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 122.5334ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 459.9277ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.4008ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/api  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.8454ms 404 

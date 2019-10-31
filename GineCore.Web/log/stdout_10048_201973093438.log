@@ -1,0 +1,375 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\??????\SVN\GineCoreMySql\GineCore.Web
+Now listening on: http://localhost:14593
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://192.168.20.67:6060/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 123.1926ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {area = "Api", action = "Start", controller = "Home"}. Executing action GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.4033ms.
+info: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor[1]
+      Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web) in 341.2731ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 842.3147ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19.6907ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://192.168.20.67:6060/api/UserInfo/GetPager application/x-www-form-urlencoded 57
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {area = "Api", action = "GetPager", controller = "UserInfo"}. Executing action GineCore.Web.Areas.Api.Controllers.UserInfoController.GetPager (GineCore.Web)
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GineCore.Web.Areas.Api.Controllers.UserInfoController.GetPager (GineCore.Web) with arguments (GineCore.Service.UserInfoService.UserInfoParam) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method GineCore.Web.Areas.Api.Controllers.UserInfoController.GetPager (GineCore.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2113.1734ms.
+info: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor[1]
+      Executing JsonResult, writing value of type 'GineCore.Common.JqGridModel`1[[GineCore.Service.UserInfoService.UserInfoModel, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action GineCore.Web.Areas.Api.Controllers.UserInfoController.GetPager (GineCore.Web) in 4497.1288ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4672.0031ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://192.168.20.67:6060/api/UserInfo/Create application/x-www-form-urlencoded 178
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {area = "Api", action = "Create", controller = "UserInfo"}. Executing action GineCore.Web.Areas.Api.Controllers.UserInfoController.Create (GineCore.Web)
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GineCore.Web.Areas.Api.Controllers.UserInfoController.Create (GineCore.Web) with arguments (GineCore.Service.UserInfoService.UserInfoCreateModel) - Validation state: Valid
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

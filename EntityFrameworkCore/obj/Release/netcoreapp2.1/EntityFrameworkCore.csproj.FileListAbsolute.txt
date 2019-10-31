@@ -1,0 +1,14 @@
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.deps.json
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.runtimeconfig.json
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.runtimeconfig.dev.json
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.pdb
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.Entity.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\bin\Release\netcoreapp2.1\GineCore.Entity.pdb
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\EntityFrameworkCore.csprojAssemblyReference.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\EntityFrameworkCore.AssemblyInfo.cs
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\EntityFrameworkCore.csproj.CopyComplete
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\obj\Release\netcoreapp2.1\GineCore.EntityFrameworkCore.pdb

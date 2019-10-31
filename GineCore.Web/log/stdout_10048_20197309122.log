@@ -1,0 +1,176 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\??????\SVN\GineCoreMySql\GineCore.Web
+Now listening on: http://localhost:2759
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://192.168.20.67:6060/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 114.8276ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {area = "Api", action = "Start", controller = "Home"}. Executing action GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.6218ms.
+info: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor[1]
+      Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action GineCore.Web.Areas.Api.HomeController.Start (GineCore.Web) in 324.587ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 744.0113ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://192.168.20.67:6060/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.3079ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://192.168.20.67:6060/api/UserInfo/Create application/x-www-form-urlencoded 199
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {area = "Api", action = "Create", controller = "UserInfo"}. Executing action GineCore.Web.Areas.Api.Controllers.UserInfoController.Create (GineCore.Web)
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GineCore.Web.Areas.Api.Controllers.UserInfoController.Create (GineCore.Web) with arguments (GineCore.Service.UserInfoService.UserInfoCreateModel) - Validation state: Valid
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2619122879-3228266707-4095004313-809235362-3602241550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action GineCore.Web.Areas.Api.Controllers.UserInfoController.Create (GineCore.Web) in 68861.4398ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[0]
+      An unhandled exception has occurred while executing the request
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT @@IDENTITY AS 'Id'' at line 1
+   at GineCore.EntityFrameworkCore.DbExtensions.DBOperateMySql.ExecuteSql(String SQLString) in E:\??????\SVN\GineCoreMySql\EntityFrameworkCore\DbExtensions\SqlHelper\DBOperateMySql.cs:line 89
+   at GineCore.Repository.BaseRepository.Base.BaseRepository`1.Insert(TEntity entity) in E:\??????\SVN\GineCoreMySql\Repository\Base\BaseRepository\BaseRepository.cs:line 24
+   at GineCore.Service.BaseService`1.Create(TEntity entity) in E:\??????\SVN\GineCoreMySql\Service\BaseService.cs:line 92
+   at GineCore.Web.Controllers.Base.BaseController`1.Create[TAddModel](TAddModel model) in E:\??????\SVN\GineCoreMySql\GineCore.Web\Areas\Base\BaseController.cs:line 68
+   at GineCore.Web.Areas.Api.Controllers.UserInfoController.Create(UserInfoCreateModel model) in E:\??????\SVN\GineCoreMySql\GineCore.Web\Areas\Api\UserInfoController.cs:line 68
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 69431.7047ms 500 text/html; charset=utf-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

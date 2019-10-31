@@ -1,0 +1,13 @@
+Unable to cast object of type 'System.String' to type 'System.DateTime'.
+   at GineCore.EntityFrameworkCore.DbExtensions.EntityToSql.AddSql[T](T entity, Boolean isContainsKey) in E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\DbExtensions\EntityToSql.cs:line 65
+   at GineCore.Repository.BaseRepository.Base.BaseRepository`1.Insert(TEntity entity) in E:\我的程序\SVN\GineCoreMySqlTemplate\Repository\Base\BaseRepository\BaseRepository.cs:line 24
+   at GineCore.Service.BaseService`1.Create(TEntity entity) in E:\我的程序\SVN\GineCoreMySqlTemplate\Service\BaseService.cs:line 92
+   at GineCore.Web.Controllers.Base.BaseController`1.Create[TAddModel](TAddModel model) in E:\我的程序\SVN\GineCoreMySqlTemplate\GineCore.Web\Areas\Base\BaseController.cs:line 68
+   at GineCore.Web.Areas.Api.MenusController.Create(CreateMenusModel model) in E:\我的程序\SVN\GineCoreMySqlTemplate\GineCore.Web\Areas\Api\MenusController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()

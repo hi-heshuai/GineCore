@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>GineCore.Common</RootNamespace>
+    <AssemblyName>GineCore.Common</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="EmitMapper.Core" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Unity" Version="5.8.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IKAnalyzerNet">
+      <HintPath>..\packages\IKAnalyzerNet\IKAnalyzerNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\packages\IKAnalyzerNet\Lucene.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

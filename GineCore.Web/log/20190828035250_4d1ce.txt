@@ -1,0 +1,21 @@
+Table 'mydb.rolemenus' doesn't exist
+   at GineCore.EntityFrameworkCore.DbExtensions.DBOperateMySql.<>c__DisplayClass10_0.<Query>b__0() in E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\DbExtensions\SqlHelper\DBOperateMySql.cs:line 247
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at GineCore.EntityFrameworkCore.DbExtensions.DBOperateMySql.Query(String SQLString) in E:\我的程序\SVN\GineCoreMySqlTemplate\EntityFrameworkCore\DbExtensions\SqlHelper\DBOperateMySql.cs:line 233
+   at GineCore.Repository.BaseRepository.Base.BaseRepository`1.FindListBySql[T](String sql) in E:\我的程序\SVN\GineCoreMySqlTemplate\Repository\Base\BaseRepository\BaseRepository.cs:line 122
+   at GineCore.Repository.RoleMenuRepository.GetRoleMenus[T](Nullable`1 roleId) in E:\我的程序\SVN\GineCoreMySqlTemplate\Repository\RoleMenuRepository.cs:line 30
+   at GineCore.Service.RolesService.RolesService.<>c__DisplayClass5_0.<<GetMenusByRoleId>b__0>d.MoveNext() in E:\我的程序\SVN\GineCoreMySqlTemplate\Service\Roles\RolesService.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at GineCore.Service.RolesService.RolesService.GetMenusByRoleId(Int32 roleId) in E:\我的程序\SVN\GineCoreMySqlTemplate\Service\Roles\RolesService.cs:line 71
+   at GineCore.Web.Areas.Api.RolesController.GetMenusByRoles(Int32 roleId) in E:\我的程序\SVN\GineCoreMySqlTemplate\GineCore.Web\Areas\Api\RolesController.cs:line 90
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()

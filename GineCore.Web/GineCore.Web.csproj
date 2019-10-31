@@ -1,0 +1,106 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\AdminLTE\**" />
+    <Compile Remove="wwwroot\Admin\**" />
+    <Compile Remove="wwwroot\iview-admin\**" />
+    <Compile Remove="wwwroot\lib\bootstrap\**" />
+    <Compile Remove="wwwroot\lib\charts\**" />
+    <Compile Remove="wwwroot\lib\cookie\**" />
+    <Compile Remove="wwwroot\lib\datepicker\**" />
+    <Compile Remove="wwwroot\lib\dialog\**" />
+    <Compile Remove="wwwroot\lib\echarts\**" />
+    <Compile Remove="wwwroot\lib\jqgrid\**" />
+    <Compile Remove="wwwroot\lib\jquery\**" />
+    <Compile Remove="wwwroot\lib\layer\**" />
+    <Compile Remove="wwwroot\lib\laypage\**" />
+    <Compile Remove="wwwroot\lib\loading\**" />
+    <Compile Remove="wwwroot\lib\select2\**" />
+    <Compile Remove="wwwroot\lib\validate\**" />
+    <Compile Remove="新文件夹\**" />
+    <Content Remove="wwwroot\AdminLTE\**" />
+    <Content Remove="wwwroot\Admin\**" />
+    <Content Remove="wwwroot\iview-admin\**" />
+    <Content Remove="wwwroot\lib\bootstrap\**" />
+    <Content Remove="wwwroot\lib\charts\**" />
+    <Content Remove="wwwroot\lib\cookie\**" />
+    <Content Remove="wwwroot\lib\datepicker\**" />
+    <Content Remove="wwwroot\lib\dialog\**" />
+    <Content Remove="wwwroot\lib\echarts\**" />
+    <Content Remove="wwwroot\lib\jqgrid\**" />
+    <Content Remove="wwwroot\lib\jquery\**" />
+    <Content Remove="wwwroot\lib\layer\**" />
+    <Content Remove="wwwroot\lib\laypage\**" />
+    <Content Remove="wwwroot\lib\loading\**" />
+    <Content Remove="wwwroot\lib\select2\**" />
+    <Content Remove="wwwroot\lib\validate\**" />
+    <Content Remove="新文件夹\**" />
+    <EmbeddedResource Remove="wwwroot\AdminLTE\**" />
+    <EmbeddedResource Remove="wwwroot\Admin\**" />
+    <EmbeddedResource Remove="wwwroot\iview-admin\**" />
+    <EmbeddedResource Remove="wwwroot\lib\bootstrap\**" />
+    <EmbeddedResource Remove="wwwroot\lib\charts\**" />
+    <EmbeddedResource Remove="wwwroot\lib\cookie\**" />
+    <EmbeddedResource Remove="wwwroot\lib\datepicker\**" />
+    <EmbeddedResource Remove="wwwroot\lib\dialog\**" />
+    <EmbeddedResource Remove="wwwroot\lib\echarts\**" />
+    <EmbeddedResource Remove="wwwroot\lib\jqgrid\**" />
+    <EmbeddedResource Remove="wwwroot\lib\jquery\**" />
+    <EmbeddedResource Remove="wwwroot\lib\layer\**" />
+    <EmbeddedResource Remove="wwwroot\lib\laypage\**" />
+    <EmbeddedResource Remove="wwwroot\lib\loading\**" />
+    <EmbeddedResource Remove="wwwroot\lib\select2\**" />
+    <EmbeddedResource Remove="wwwroot\lib\validate\**" />
+    <EmbeddedResource Remove="新文件夹\**" />
+    <None Remove="wwwroot\AdminLTE\**" />
+    <None Remove="wwwroot\Admin\**" />
+    <None Remove="wwwroot\iview-admin\**" />
+    <None Remove="wwwroot\lib\bootstrap\**" />
+    <None Remove="wwwroot\lib\charts\**" />
+    <None Remove="wwwroot\lib\cookie\**" />
+    <None Remove="wwwroot\lib\datepicker\**" />
+    <None Remove="wwwroot\lib\dialog\**" />
+    <None Remove="wwwroot\lib\echarts\**" />
+    <None Remove="wwwroot\lib\jqgrid\**" />
+    <None Remove="wwwroot\lib\jquery\**" />
+    <None Remove="wwwroot\lib\layer\**" />
+    <None Remove="wwwroot\lib\laypage\**" />
+    <None Remove="wwwroot\lib\loading\**" />
+    <None Remove="wwwroot\lib\select2\**" />
+    <None Remove="wwwroot\lib\validate\**" />
+    <None Remove="新文件夹\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.7.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="http://json.schemastore.org/cryproj.52.schema" /></VisualStudio></ProjectExtensions>
+
+</Project>

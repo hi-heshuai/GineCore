@@ -1,0 +1,9 @@
+System.UnauthorizedAccessException: Access to the path 'C:\WINDOWS\system32\config\systemprofile' is denied.
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Microsoft.Extensions.EnvironmentAbstractions.DirectoryWrapper.CreateDirectory(String path)
+   at Microsoft.DotNet.Configurer.FileSentinel.Create()
+   at Microsoft.DotNet.Configurer.DotnetFirstTimeUseConfigurer.Configure()
+   at Microsoft.DotNet.Cli.Program.ConfigureDotNetForFirstTimeUse(INuGetCacheSentinel nugetCacheSentinel, IFirstTimeUseNoticeSentinel firstTimeUseNoticeSentinel, IAspNetCertificateSentinel aspNetCertificateSentinel, IFileSentinel toolPathSentinel, Boolean hasSuperUserAccess, DotnetFirstRunConfiguration dotnetFirstRunConfiguration, IEnvironmentProvider environmentProvider)
+   at Microsoft.DotNet.Cli.Program.ProcessArgs(String[] args, ITelemetry telemetryClient)
+   at Microsoft.DotNet.Cli.Program.Main(String[] args)

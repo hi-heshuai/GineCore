@@ -1,0 +1,13 @@
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\bin\Release\netcoreapp2.0\GineCore.Common.deps.json
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\bin\Release\netcoreapp2.0\GineCore.Common.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\bin\Release\netcoreapp2.0\GineCore.Common.pdb
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\bin\Release\netcoreapp2.0\IKAnalyzerNet.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\bin\Release\netcoreapp2.0\Lucene.Net.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\bin\Release\netcoreapp2.0\PowerCollections.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\Common.csprojAssemblyReference.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\Common.csproj.CoreCompileInputs.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\Common.AssemblyInfoInputs.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\Common.AssemblyInfo.cs
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\Common.csproj.CopyComplete
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\GineCore.Common.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Common\obj\Release\netcoreapp2.0\GineCore.Common.pdb

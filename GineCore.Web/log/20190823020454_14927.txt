@@ -1,0 +1,13 @@
+Could not find a part of the path 'E:\我的程序\SVN\GineCoreMySqlTemplate\GineCore.Web\Upload\bd7b7f77e0da48f69e7700f05517fc12'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at GineCore.Web.Areas.Api.FileController.SaveFile(IFormFile file) in E:\我的程序\SVN\GineCoreMySqlTemplate\GineCore.Web\Areas\Api\FileController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()

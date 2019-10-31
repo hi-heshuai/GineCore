@@ -1,0 +1,9 @@
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\bin\Release\netcoreapp2.0\GineCore.Entity.deps.json
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\bin\Release\netcoreapp2.0\GineCore.Entity.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\bin\Release\netcoreapp2.0\GineCore.Entity.pdb
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\obj\Release\netcoreapp2.0\Entity.csprojAssemblyReference.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\obj\Release\netcoreapp2.0\Entity.csproj.CoreCompileInputs.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\obj\Release\netcoreapp2.0\Entity.AssemblyInfoInputs.cache
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\obj\Release\netcoreapp2.0\Entity.AssemblyInfo.cs
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\obj\Release\netcoreapp2.0\GineCore.Entity.dll
+E:\我的程序\SVN\GineCoreMySqlTemplate\Entity\obj\Release\netcoreapp2.0\GineCore.Entity.pdb
